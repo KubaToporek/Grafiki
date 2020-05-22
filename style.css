@@ -1,0 +1,149 @@
+div.multicolumn 
+{
+    column-width: 80em;
+    column-gap: 15em;
+    column-rule: 20px solid  #f7cac9;
+    padding: 5px;
+
+    -moz-column-width: 15em;
+    -moz-column-gap: 2em;
+    -moz-column-rule: 3px solid  #f7cac9;
+
+    -webkit-column-width: 15em;
+    -webkit-column-gap: 2em;
+    -webkit-column-rule: 3px solid  #f7cac9;
+}
+ul
+{
+    margin-right:100px;
+    margin-bottom:3px;
+    list-style-type:none;
+    font-size:18px;
+    height:40px;
+    line-height:100%;
+}
+body
+{
+	background-color:#f7cac9;
+	opacity:0.8;
+}
+ul a
+{
+    color:#353b48;
+    text-decoration: none;
+    display: inline-block;
+}
+ul > li
+{
+    float: left;
+    width: 220px;
+    height: 60px;
+    border-right: 1px;
+    border-right-style:double;
+    border-right-color:#f7cac9;
+}
+
+ul > li:first-child
+{
+    border-left: 1px;
+    border-left-style:double;
+    border-left-color:#f7cac9;
+}
+ul > li:hover 
+{
+    background:#92a8d1;
+}
+ul > li:hover > a 
+{
+    color: #f7cac9	;
+}
+ul > li > ol
+{
+    list-style-type:none;
+    padding: 1px;
+    margin: 1px;
+    height: 40px;
+    display: none;
+}
+ul > li:hover > ol
+{
+    display: block;
+}
+ul > li > ol > li
+{
+    opacity:0.9;
+    position:relative;
+    z-index: 100;
+    border-top: 1px solid black;
+    background:#92a8d1;
+    color:#f7cac9; 	
+}
+ul > li > ol > li:hover
+{
+    background:#92a8d1;
+}
+ul > li > ol > li:hover  > a 
+{
+    background:#92a8d1;
+    opacity: 0.3;
+}
+.nav
+{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	list-style-type:none;
+	color:#f7cac9;
+	text-align:center;
+	background-color:#92a8d1;
+	margin-bottom:1px;
+	padding: 30px;
+	font-size:20px;
+	min-height:100%;
+	line-height:100px;
+}
+.cos
+{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:center;
+    background-color:#92a8d1;
+	color:#f7cac9;
+}
+.footer
+{
+	margin-top:50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:center;
+    background-color:#92a8d1;
+	color:#f7cac9;
+	font-family:'Bebas Neue', cursive;
+	font-size:35px;
+}
+.prosto
+{
+	width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+h2
+{
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+	background:#92a8d1;
+	padding: 10px;
+	font-size:50px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	color:#f7cac9;
+	
+}
